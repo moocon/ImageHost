@@ -50,7 +50,7 @@ jobs:
       with:
         src: github/moocon
         dst: gitlab/moocom
-        dst_key: ${{ secrets.GITHUB_PRIVATE_KEY }}
+        dst_key: ${{ secrets.MOOCON_PRIVATE_KEY }}
         dst_token: ${{ secrets.GITLAB_TOKEN }}
         static_list: "PictureBed"
         debug: true
