@@ -26,5 +26,5 @@ jobs:
           fetch-depth: 0
       - uses: moocon/repository-mirroring-action@v1
         with:
-          target_repo_url: git@gitlab.com:moocon/UEFI.git
+          target_repo_url: git@gitlab.com:moocon/PictureBed.git
           ssh_private_key: ${{ secrets.MOOCON_PRIVATE_KEY }}
