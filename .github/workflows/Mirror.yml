@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0
       - uses: moocon/repository-mirroring-action@v1
         with:
-          target_repo_url: git@gitee.com:moocon/PictureBed.git
+          target_repo_url: git@gitee.com:moocon/ImageHost.git
           ssh_private_key: ${{ secrets.MOOCON_PRIVATE_KEY }}
 
   mirror_to_gitlab:
@@ -26,5 +26,5 @@ jobs:
           fetch-depth: 0
       - uses: moocon/repository-mirroring-action@v1
         with:
-          target_repo_url: git@gitlab.com:moocom/PictureBed.git
+          target_repo_url: git@gitlab.com:moocom/ImageHost.git
           ssh_private_key: ${{ secrets.MOOCON_PRIVATE_KEY }}
